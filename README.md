@@ -11,20 +11,28 @@ Description:
 The dataset contains clinical and demographic information of patients, including age, sex, chest pain type, resting blood pressure, cholesterol, maximum heart rate, ST depression, number of major vessels affected, thalassemia type, and other heart-related measures.
 
 Key Features
-Column	Description
-age	Age in years
-sex	Sex (1 = male, 0 = female)
-chest_pain_type	Chest pain type (0 = typical angina, 1 = atypical angina, 2 = non-anginal pain, 3 = asymptomatic)
-resting_bp	Resting blood pressure (mm Hg)
-cholesterol	Serum cholesterol (mg/dl)
-fasting_blood_sugar	Fasting blood sugar > 120 mg/dl (1 = true, 0 = false)
-resting_ecg	Resting ECG results (0 = normal, 1 = ST-T wave abnormality, 2 = left ventricular hypertrophy)
-max_heart_rate	Maximum heart rate achieved
-exercise_induced_angina	Exercise-induced angina (1 = yes, 0 = no)
-st_depression	ST depression induced by exercise relative to rest
-st_slope	Slope of the peak exercise ST segment (0 = upsloping, 1 = flat, 2 = downsloping)
-num_major_vessels	Number of major vessels (0–3) colored by fluoroscopy
-thalassemia	Thalassemia type (1 = fixed defect, 2 = normal, 3 = reversible defect; 0 = invalid)
+
+| **Column**                | **Description**                                                                                   |
+| ------------------------- | ------------------------------------------------------------------------------------------------- |
+| `age`                     | Age in years                                                                                      |
+| `sex`                     | Sex (1 = male, 0 = female)                                                                        |
+| `chest_pain_type`         | Chest pain type (0 = typical angina, 1 = atypical angina, 2 = non-anginal pain, 3 = asymptomatic) |
+| `resting_bp`              | Resting blood pressure (mm Hg)                                                                    |
+| `cholesterol`             | Serum cholesterol (mg/dl)                                                                         |
+| `fasting_blood_sugar`     | Fasting blood sugar > 120 mg/dl (1 = true, 0 = false)                                             |
+| `resting_ecg`             | Resting ECG results (0 = normal, 1 = ST-T wave abnormality, 2 = left ventricular hypertrophy)     |
+| `max_heart_rate`          | Maximum heart rate achieved                                                                       |
+| `exercise_induced_angina` | Exercise-induced angina (1 = yes, 0 = no)                                                         |
+| `st_depression`           | ST depression induced by exercise relative to rest                                                |
+| `st_slope`                | Slope of the peak exercise ST segment (0 = upsloping, 1 = flat, 2 = downsloping)                  |
+| `num_major_vessels`       | Number of major vessels (0–3) colored by fluoroscopy                                              |
+| `thalassemia`             | Thalassemia type (1 = fixed defect, 2 = normal, 3 = reversible defect; 0 = invalid)               |
+
+
+
+
+
+
 Project Overview
 
 The purpose of this project is to identify and profile natural patient clusters using unsupervised learning. The analysis complements prior supervised classification work and provides clinically interpretable insights into heart disease risk.
